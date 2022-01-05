@@ -5,24 +5,22 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    double days = 40.5;
-    String name = "Nitin ";
-
-    var day = "Tuesday";
-
     return Scaffold(
+      
+      
       appBar: AppBar(
         title: Text("Nitin Khobragade"),
       ),
+
         body: Center(
           child: Container(
-            child : Text("Welcome to $days Days of $name")
+            child : Text("Welcome to 30 Days of Flutter")
           ),
         ),
+
         drawer: Drawer(
-          child: Text("Nitin"),
         ),
+
       );
   }
 }
